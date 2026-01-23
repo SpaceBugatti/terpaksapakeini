@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0" />
+        <title>To-Do List App</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <!-- Dark Mode Toggle -->
+        <div class="theme-toggle-container">
+            <button class="theme-toggle" id="theme-toggle">
+                <span class="toggle-icon">🌙<</span>
+                <span class="toggle-text">Dark Mode</span>
+            </button>
+        </div>
+
+        <!-- To-Do List App-->
+         <div class="container">
+            <div class="todo-app">
+                <h2>
+                    To-Do-List
+                    <span>
+                        <img src="images/to-do-list-icon.png" class="todo-icon"/>
+                    </span>
+                </h2>
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Add your text" />
+                    <button id="add-btn" onclick="addTask()" disabled>Add</button>                    
+                </div>
+                <ul id="list-container"></ul>
+                <button id="delete-all" class="delete-all-btn">Delete All</button>
+            </div>
+         </div>
+
+         <script src="script.js"></script>
+    </body>    
+</html>

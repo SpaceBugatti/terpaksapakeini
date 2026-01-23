@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+    /* Light Mode Colors */
+    --primary-bg: linear-gradient(
+        to right,
+        #e3a1a1,
+        #b0c4c4,
+        #4fc2dd,
+        #a897d6,
+        #70c0d3
+    );
+    --app-bg: #ffffff;
+    --text-color: #002655;
+    --input-bg: #dfe2e5;
+    --add-btn: #ff4d3a;
+    --delete-all-btn: linear-gradient(to right, #ff5e6f, #)
+}
